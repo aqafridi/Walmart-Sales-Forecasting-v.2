@@ -7,6 +7,9 @@ from hyperopt.pyll.base import scope
 from hyperopt.pyll.stochastic import sample
 
 class ProphetModel:
+
+
+    
     def __init__(self):
         self.model = None
         self.params = {}
