@@ -21,7 +21,7 @@ class LagTransformer:
     
 
 """
-Usage: python
+Usage Example:
 
 # create some sample data
 data = {'Date': ['2022-01-01', '2022-01-02', '2022-01-03', '2022-01-04', '2022-01-05'],

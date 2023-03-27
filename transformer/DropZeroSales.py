@@ -19,7 +19,7 @@ class DropZeroValues:
         return non_zero_data
     
 """
-usage: python
+Usage Example:
 
 # create some sample data
 data = {'Name': ['Alice', 'Bob', 'Charlie', 'David'],

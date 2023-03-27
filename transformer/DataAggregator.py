@@ -31,7 +31,7 @@ class DataAggregator:
 
 
 """
-usage example
+Usage Example:
 
 # create some sample data
 data = {'Name': ['Alice', 'Bob', 'Charlie', 'Alice', 'Bob', 'Charlie'],
