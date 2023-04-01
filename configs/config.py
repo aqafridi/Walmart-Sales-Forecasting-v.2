@@ -1,3 +1,0 @@
- """
- config for projects
- """

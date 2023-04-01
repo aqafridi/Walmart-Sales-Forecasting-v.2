@@ -1,6 +1,6 @@
-import pandas as pd
-import xgboost as xgb
-
+import xgboost as xgb;
+import numpy as np
+import modin.pandas as pd
 class XGBoostModel:
 
     """
@@ -26,7 +26,7 @@ class XGBoostModel:
         self.n_estimators = n_estimators
         self.objective = objective
     
-    def fit(self, train_data):
+    def fit(self, training_data):
         """
         Fits the XGBoost model to the training data.
 
@@ -43,7 +43,10 @@ class XGBoostModel:
             n_estimators=self.n_estimators,
             objective=self.objective
         )
-        self.trained_model.fit(train_data[['ds']], train_data['y'])
+        training_data = np.asarray(training_data)
+	    # split into input and output columns
+        train_X, train_y = training_data[:, :-1], training_data[:, -1]
+        self.trained_model.fit(train_X, train_y)
         return self.trained_model
     
     def predict(self, test_data):
@@ -60,8 +63,8 @@ class XGBoostModel:
         if not hasattr(self, 'trained_model'):
             raise ValueError("Model has not been trained yet. Please call fit() before predict().")
         
-        test_data = test_data[['ds']]
-        test_data['yhat'] = self.trained_model.predict(test_data)
+        test_data = test_data['ds']
+        test_data['yhat'] = self.trained_model.predict(np.asarray(test_data))
         return test_data
 
 
