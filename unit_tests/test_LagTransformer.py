@@ -1,6 +1,8 @@
 import unittest
 import pandas as pd
-from my_module import LagFeature
+import sys
+sys.path.append('C:/Users/abdul.qadeer/Desktop/M5-Forecasting-v.2/transformer')
+from LagTransformer import LagTransformer
 
 class TestLagFeature(unittest.TestCase):
     def setUp(self):
@@ -10,7 +12,7 @@ class TestLagFeature(unittest.TestCase):
         self.df = pd.DataFrame(data)
         
     def test_transform(self):
-        lf = LagFeature(['Price', 'Revenue'], lags=[1,2])
+        lf = LagTransformer(['Price', 'Revenue'], lags=[1,2])
         transformed_df = lf.transform(self.df)
         
         # check the columns of the transformed DataFrame

@@ -1,6 +1,8 @@
 import unittest
 import pandas as pd
-from my_module import LogFeature
+import sys
+sys.path.append('C:/Users/abdul.qadeer/Desktop/M5-Forecasting-v.2/transformer')
+from LogTransformer import LogTransformer
 
 class TestLogFeature(unittest.TestCase):
     def setUp(self):
@@ -10,7 +12,7 @@ class TestLogFeature(unittest.TestCase):
         self.df = pd.DataFrame(data)
         
     def test_transform(self):
-        lf = LogFeature(['Price', 'Revenue'])
+        lf = LogTransformer(['Price', 'Revenue'])
         transformed_df = lf.transform(self.df)
         
         # check the columns of the transformed DataFrame

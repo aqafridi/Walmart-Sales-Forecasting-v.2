@@ -1,6 +1,8 @@
 import unittest
 import pandas as pd
-from my_module import DataAggregation
+import sys
+sys.path.append('C:/Users/abdul.qadeer/Desktop/M5-Forecasting-v.2/transformer')
+from DataAggregator import DataAggregator
 
 class TestDataAggregation(unittest.TestCase):
     def setUp(self):
@@ -10,7 +12,7 @@ class TestDataAggregation(unittest.TestCase):
         self.df = pd.DataFrame(data)
         
     def test_aggregate(self):
-        da = DataAggregation('Name')
+        da = DataAggregator('Name')
         agg_df = da.aggregate(self.df)
         
         # check the columns of the aggregated DataFrame
@@ -22,7 +24,7 @@ class TestDataAggregation(unittest.TestCase):
         self.assertListEqual(list(agg_df['Avg Sales']), [125, 225, 325])
         
     def test_aggregate_with_groupby(self):
-        da = DataAggregation(['Region', 'Name'])
+        da = DataAggregator(['Region', 'Name'])
         agg_df = da.aggregate(self.df)
         
         # check the columns of the aggregated DataFrame

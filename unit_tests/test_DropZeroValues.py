@@ -12,7 +12,7 @@ class TestDropZeroRows(unittest.TestCase):
         self.df = pd.DataFrame(data)
         
     def test_drop_zeros(self):
-        dz = DropZeroRows()
+        dz = DropZeroValues()
         df_dropped = dz.drop_zeros(self.df)
         
         # check the number of rows and columns of the resulting DataFrame
