@@ -1,6 +1,8 @@
 import unittest
 import pandas as pd
-from my_module import DropZeroRows
+import sys
+sys.path.append('C:/Users/abdul.qadeer/Desktop/M5-Forecasting-v.2/transformer')
+from DropZeroValues import DropZeroValues
 
 class TestDropZeroRows(unittest.TestCase):
     def setUp(self):
