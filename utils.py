@@ -27,7 +27,10 @@ def get_xgboost_x_y(
         all_y: np.array of shape (number of instances, target seq len)
 
     """
-    print("Preparing data..")
+    # print("Preparing data..")
+    all_x =[]
+    all_y =[]
+
 
     # Loop over list of training indices
     for i, idx in enumerate(indices):
@@ -54,7 +57,7 @@ def get_xgboost_x_y(
 
             all_x = np.concatenate((all_x, x.reshape(1, -1)), axis=0)
 
-    print("Finished preparing data!")
+    # print("Finished preparing data!")
 
     return all_x, all_y
 
@@ -106,3 +109,34 @@ def get_indices_entire_sequence(
             subseq_last_idx += step_size
 
         return indices
+
+
+def prepare_data_for_xgb(y_train_data_,y_test_data_,in_length,step_size,target_sequence_length):
+    training_indices = get_indices_entire_sequence(
+            data=y_train_data_, 
+            window_size=in_length+target_sequence_length, 
+            step_size=step_size
+            )
+
+        # Obtain (X,Y) pairs of training data
+    x_train, y_train = get_xgboost_x_y(
+        indices=training_indices, 
+        data=y_train_data_.to_numpy(),
+        target_sequence_length=target_sequence_length,
+        input_seq_len=in_length
+        )
+
+    test_indices = get_indices_entire_sequence(
+        data=y_test_data_, 
+        window_size=in_length+target_sequence_length, 
+        step_size=24
+        )
+
+    # Obtain (X,Y) pairs of test data
+    x_test, y_test = get_xgboost_x_y(
+        indices=test_indices, 
+        data=y_test_data_.to_numpy(),
+        target_sequence_length=target_sequence_length,
+        input_seq_len=in_length
+        )
+    return x_train, y_train,x_test, y_test

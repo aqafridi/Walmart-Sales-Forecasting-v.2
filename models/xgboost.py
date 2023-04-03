@@ -26,7 +26,7 @@ class XGBoostModel:
         self.n_estimators = n_estimators
         self.objective = objective
     
-    def fit(self, training_data):
+    def fit(self, train_X,train_y):
         """
         Fits the XGBoost model to the training data.
 
@@ -43,9 +43,6 @@ class XGBoostModel:
             n_estimators=self.n_estimators,
             objective=self.objective
         )
-        training_data = np.asarray(training_data)
-	    # split into input and output columns
-        train_X, train_y = training_data[:, :-1], training_data[:, -1]
         self.trained_model.fit(train_X, train_y)
         return self.trained_model
     

@@ -26,6 +26,7 @@ class DataAggregator:
         Aggregate data based on a specific column and function.
         """
         aggregated_data = self.data.groupby(column).agg(func)
+        aggregated_data=aggregated_data.reset_index()
         return aggregated_data
     
 

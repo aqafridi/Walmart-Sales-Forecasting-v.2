@@ -1,0 +1,632 @@
+{
+    "best_param_CA_1_FOODS_1": {
+        "gamma": 0.053543859402459315,
+        "learning_rate": 0.43304389079434624,
+        "max_depth": 15,
+        "n_estimators": 72,
+        "reg_alpha": 0.26799495705671394,
+        "reg_lambda": 0.5463312802226415,
+        "subsample": 0.9902903738041059
+    },
+    "best_param_CA_1_FOODS_2": {
+        "gamma": 0.39940548830561096,
+        "learning_rate": 0.10848146700403224,
+        "max_depth": 3,
+        "n_estimators": 71,
+        "reg_alpha": 0.2558543873217455,
+        "reg_lambda": 0.24742950910202977,
+        "subsample": 0.8702714380403754
+    },
+    "best_param_CA_1_FOODS_3": {
+        "gamma": 0.23364734907439333,
+        "learning_rate": 0.4177455435798207,
+        "max_depth": 1,
+        "n_estimators": 28,
+        "reg_alpha": 0.7496238759532141,
+        "reg_lambda": 0.7517304847459683,
+        "subsample": 0.7349313582894517
+    },
+    "best_param_CA_1_HOBBIES_1": {
+        "gamma": 0.8265728193044771,
+        "learning_rate": 0.11396035787864638,
+        "max_depth": 17,
+        "n_estimators": 179,
+        "reg_alpha": 0.16830954584683033,
+        "reg_lambda": 0.09019395356464532,
+        "subsample": 0.4888276780212407
+    },
+    "best_param_CA_1_HOBBIES_2": {
+        "gamma": 0.7262986627500678,
+        "learning_rate": 0.04144716262718234,
+        "max_depth": 10,
+        "n_estimators": 16,
+        "reg_alpha": 0.42132380109147705,
+        "reg_lambda": 0.16117276049809293,
+        "subsample": 0.20198719385660463
+    },
+    "best_param_CA_1_HOUSEHOLD_1": {
+        "gamma": 0.24999176841299597,
+        "learning_rate": 0.029397113440706422,
+        "max_depth": 16,
+        "n_estimators": 10,
+        "reg_alpha": 0.5414668616557274,
+        "reg_lambda": 0.02112646770262272,
+        "subsample": 0.11926593032153363
+    },
+    "best_param_CA_1_HOUSEHOLD_2": {
+        "gamma": 0.2774451217334649,
+        "learning_rate": 0.054251730120375756,
+        "max_depth": 1,
+        "n_estimators": 37,
+        "reg_alpha": 0.7952990037140467,
+        "reg_lambda": 0.8556112135250712,
+        "subsample": 0.29129583462627384
+    },
+    "best_param_CA_2_FOODS_1": {
+        "gamma": 0.32870865011251804,
+        "learning_rate": 0.06921071366730816,
+        "max_depth": 11,
+        "n_estimators": 185,
+        "reg_alpha": 0.3166555851772149,
+        "reg_lambda": 0.0685182708903177,
+        "subsample": 0.7452160189455808
+    },
+    "best_param_CA_2_FOODS_2": {
+        "gamma": 0.2615554422378832,
+        "learning_rate": 0.07955383579846578,
+        "max_depth": 7,
+        "n_estimators": 163,
+        "reg_alpha": 0.594054664747561,
+        "reg_lambda": 0.1846585712692944,
+        "subsample": 0.9972699967263855
+    },
+    "best_param_CA_2_FOODS_3": {
+        "gamma": 0.8505498954235057,
+        "learning_rate": 0.036553262144409834,
+        "max_depth": 6,
+        "n_estimators": 124,
+        "reg_alpha": 0.9409907673842194,
+        "reg_lambda": 0.3296269088049506,
+        "subsample": 0.1139290725014144
+    },
+    "best_param_CA_2_HOBBIES_1": {
+        "gamma": 0.5170108521668275,
+        "learning_rate": 0.21622425493774075,
+        "max_depth": 2,
+        "n_estimators": 101,
+        "reg_alpha": 0.46524071431725367,
+        "reg_lambda": 0.2998684495937365,
+        "subsample": 0.9081350403581949
+    },
+    "best_param_CA_2_HOBBIES_2": {
+        "gamma": 0.08531776516056899,
+        "learning_rate": 0.061784583119453264,
+        "max_depth": 11,
+        "n_estimators": 81,
+        "reg_alpha": 0.5898068961034453,
+        "reg_lambda": 0.20137721505095474,
+        "subsample": 0.6938462003799442
+    },
+    "best_param_CA_2_HOUSEHOLD_1": {
+        "gamma": 0.34675825933006665,
+        "learning_rate": 0.0563009142324978,
+        "max_depth": 3,
+        "n_estimators": 95,
+        "reg_alpha": 0.3044820544244443,
+        "reg_lambda": 0.26584648336476835,
+        "subsample": 0.830369743255019
+    },
+    "best_param_CA_2_HOUSEHOLD_2": {
+        "gamma": 0.3993985567333649,
+        "learning_rate": 0.13924421868634923,
+        "max_depth": 16,
+        "n_estimators": 139,
+        "reg_alpha": 0.4736133361577942,
+        "reg_lambda": 0.7591838295791231,
+        "subsample": 0.43940386414000654
+    },
+    "best_param_CA_3_FOODS_1": {
+        "gamma": 0.3767671763122483,
+        "learning_rate": 0.018597341343265492,
+        "max_depth": 5,
+        "n_estimators": 158,
+        "reg_alpha": 0.6135712859371205,
+        "reg_lambda": 0.23298862845859614,
+        "subsample": 0.4507933176116635
+    },
+    "best_param_CA_3_FOODS_2": {
+        "gamma": 0.9514678407982908,
+        "learning_rate": 0.020300015015235384,
+        "max_depth": 8,
+        "n_estimators": 166,
+        "reg_alpha": 0.11285706571060761,
+        "reg_lambda": 0.21534847991348782,
+        "subsample": 0.22755922462563954
+    },
+    "best_param_CA_3_FOODS_3": {
+        "gamma": 0.13042256596310142,
+        "learning_rate": 0.49586021849393336,
+        "max_depth": 0,
+        "n_estimators": 125,
+        "reg_alpha": 0.6847846710138374,
+        "reg_lambda": 0.60935906126537,
+        "subsample": 0.7134099887325015
+    },
+    "best_param_CA_3_HOBBIES_1": {
+        "gamma": 0.29130727283568447,
+        "learning_rate": 0.1515050810836505,
+        "max_depth": 2,
+        "n_estimators": 74,
+        "reg_alpha": 0.4959545172595179,
+        "reg_lambda": 0.33263463581217423,
+        "subsample": 0.7923334745192999
+    },
+    "best_param_CA_3_HOBBIES_2": {
+        "gamma": 0.368742085067589,
+        "learning_rate": 0.10638271880055264,
+        "max_depth": 11,
+        "n_estimators": 179,
+        "reg_alpha": 0.8520944554662336,
+        "reg_lambda": 0.5727162201185204,
+        "subsample": 0.23749714039082997
+    },
+    "best_param_CA_3_HOUSEHOLD_1": {
+        "gamma": 0.9812318162437232,
+        "learning_rate": 0.07255719402070736,
+        "max_depth": 14,
+        "n_estimators": 6,
+        "reg_alpha": 0.5665208530862295,
+        "reg_lambda": 0.18748584886968966,
+        "subsample": 0.9202508282686575
+    },
+    "best_param_CA_3_HOUSEHOLD_2": {
+        "gamma": 0.7153313050829988,
+        "learning_rate": 0.24686431166138592,
+        "max_depth": 9,
+        "n_estimators": 96,
+        "reg_alpha": 0.535510072449222,
+        "reg_lambda": 0.9193373556303495,
+        "subsample": 0.6732236508031187
+    },
+    "best_param_CA_4_FOODS_1": {
+        "gamma": 0.4940152211448793,
+        "learning_rate": 0.03380647655547944,
+        "max_depth": 11,
+        "n_estimators": 86,
+        "reg_alpha": 0.7033322443240138,
+        "reg_lambda": 0.4777826945982707,
+        "subsample": 0.5615985230203211
+    },
+    "best_param_CA_4_FOODS_2": {
+        "gamma": 0.9199678656598044,
+        "learning_rate": 0.05777681769818547,
+        "max_depth": 17,
+        "n_estimators": 52,
+        "reg_alpha": 0.4175496910005827,
+        "reg_lambda": 0.045587308221022416,
+        "subsample": 0.6883723104412715
+    },
+    "best_param_CA_4_FOODS_3": {
+        "gamma": 0.7560769715806622,
+        "learning_rate": 0.01866535151684672,
+        "max_depth": 9,
+        "n_estimators": 96,
+        "reg_alpha": 0.5010759811288634,
+        "reg_lambda": 0.4705371021839465,
+        "subsample": 0.8323155895419808
+    },
+    "best_param_CA_4_HOBBIES_1": {
+        "gamma": 0.623772962961201,
+        "learning_rate": 0.24789391206611894,
+        "max_depth": 3,
+        "n_estimators": 185,
+        "reg_alpha": 0.9567040683788055,
+        "reg_lambda": 0.10035088659845359,
+        "subsample": 0.6262498674609231
+    },
+    "best_param_CA_4_HOBBIES_2": {
+        "gamma": 0.5563149138157784,
+        "learning_rate": 0.3668400622752904,
+        "max_depth": 4,
+        "n_estimators": 115,
+        "reg_alpha": 0.10020351485992252,
+        "reg_lambda": 0.9028051635941711,
+        "subsample": 0.6749128162861625
+    },
+    "best_param_CA_4_HOUSEHOLD_1": {
+        "gamma": 0.7849397111284431,
+        "learning_rate": 0.08484694211632479,
+        "max_depth": 13,
+        "n_estimators": 155,
+        "reg_alpha": 0.04202734735935987,
+        "reg_lambda": 0.9394097819109559,
+        "subsample": 0.4172072920658534
+    },
+    "best_param_CA_4_HOUSEHOLD_2": {
+        "gamma": 0.421900302193285,
+        "learning_rate": 0.5134809363960335,
+        "max_depth": 0,
+        "n_estimators": 123,
+        "reg_alpha": 0.5259820901065835,
+        "reg_lambda": 0.5356121675201495,
+        "subsample": 0.8712943379097018
+    },
+    "best_param_TX_1_FOODS_1": {
+        "gamma": 0.009656410006175231,
+        "learning_rate": 0.04256012049082152,
+        "max_depth": 8,
+        "n_estimators": 105,
+        "reg_alpha": 0.5072304562243048,
+        "reg_lambda": 0.7997949186374346,
+        "subsample": 0.7919289374392494
+    },
+    "best_param_TX_1_FOODS_2": {
+        "gamma": 0.6388925687433574,
+        "learning_rate": 0.021944873123239377,
+        "max_depth": 9,
+        "n_estimators": 113,
+        "reg_alpha": 0.8296481005718972,
+        "reg_lambda": 0.18786553090381675,
+        "subsample": 0.9868822600364763
+    },
+    "best_param_TX_1_FOODS_3": {
+        "gamma": 0.11337177614552407,
+        "learning_rate": 0.18092454050525916,
+        "max_depth": 17,
+        "n_estimators": 105,
+        "reg_alpha": 0.791713301366339,
+        "reg_lambda": 0.3563035513571684,
+        "subsample": 0.41485789589477773
+    },
+    "best_param_TX_1_HOBBIES_1": {
+        "gamma": 0.6376293940631093,
+        "learning_rate": 0.1150098458809369,
+        "max_depth": 10,
+        "n_estimators": 95,
+        "reg_alpha": 0.22590811581178705,
+        "reg_lambda": 0.871309133924739,
+        "subsample": 0.36671506239183926
+    },
+    "best_param_TX_1_HOBBIES_2": {
+        "gamma": 0.19456188210566294,
+        "learning_rate": 0.02836887793553197,
+        "max_depth": 16,
+        "n_estimators": 122,
+        "reg_alpha": 0.603617927420079,
+        "reg_lambda": 0.8665691202476306,
+        "subsample": 0.6594399395694557
+    },
+    "best_param_TX_1_HOUSEHOLD_1": {
+        "gamma": 0.42091936031079025,
+        "learning_rate": 0.03337711404186015,
+        "max_depth": 17,
+        "n_estimators": 104,
+        "reg_alpha": 0.4646535658891551,
+        "reg_lambda": 0.3870056534793809,
+        "subsample": 0.3897934835119877
+    },
+    "best_param_TX_1_HOUSEHOLD_2": {
+        "gamma": 0.22782384825705226,
+        "learning_rate": 0.16847891928210731,
+        "max_depth": 9,
+        "n_estimators": 32,
+        "reg_alpha": 0.9611764671366055,
+        "reg_lambda": 0.6227216864946012,
+        "subsample": 0.5520991101027761
+    },
+    "best_param_TX_2_FOODS_1": {
+        "gamma": 0.2999874172893069,
+        "learning_rate": 0.17694754221350195,
+        "max_depth": 2,
+        "n_estimators": 168,
+        "reg_alpha": 0.7298823209227023,
+        "reg_lambda": 0.439026011680107,
+        "subsample": 0.326276833159176
+    },
+    "best_param_TX_2_FOODS_2": {
+        "gamma": 0.2418809784165339,
+        "learning_rate": 0.019313918641072767,
+        "max_depth": 8,
+        "n_estimators": 100,
+        "reg_alpha": 0.6837890855224285,
+        "reg_lambda": 0.14584216425525276,
+        "subsample": 0.29070542170441155
+    },
+    "best_param_TX_2_FOODS_3": {
+        "gamma": 0.3246933752590516,
+        "learning_rate": 0.020748232484158274,
+        "max_depth": 18,
+        "n_estimators": 86,
+        "reg_alpha": 0.8508293276755465,
+        "reg_lambda": 0.8579740007894566,
+        "subsample": 0.30441574617474504
+    },
+    "best_param_TX_2_HOBBIES_1": {
+        "gamma": 0.7746115130201627,
+        "learning_rate": 0.13438272716178318,
+        "max_depth": 7,
+        "n_estimators": 5,
+        "reg_alpha": 0.8065519948571301,
+        "reg_lambda": 0.5036663756033608,
+        "subsample": 0.3465478464203728
+    },
+    "best_param_TX_2_HOBBIES_2": {
+        "gamma": 0.7956993016157659,
+        "learning_rate": 0.22290861554904723,
+        "max_depth": 4,
+        "n_estimators": 136,
+        "reg_alpha": 0.7440104298636742,
+        "reg_lambda": 0.8293468293130231,
+        "subsample": 0.16389823488473432
+    },
+    "best_param_TX_2_HOUSEHOLD_1": {
+        "gamma": 0.9474355766791196,
+        "learning_rate": 0.06069695476747991,
+        "max_depth": 17,
+        "n_estimators": 9,
+        "reg_alpha": 0.7045890729464098,
+        "reg_lambda": 0.2825836339544924,
+        "subsample": 0.6966673260858629
+    },
+    "best_param_TX_2_HOUSEHOLD_2": {
+        "gamma": 0.10956634992877523,
+        "learning_rate": 0.7874201510241216,
+        "max_depth": 14,
+        "n_estimators": 92,
+        "reg_alpha": 0.08118952817469438,
+        "reg_lambda": 0.9092315541805867,
+        "subsample": 0.8756287326902125
+    },
+    "best_param_TX_3_FOODS_1": {
+        "gamma": 0.012727405059018815,
+        "learning_rate": 0.04928456268848091,
+        "max_depth": 9,
+        "n_estimators": 81,
+        "reg_alpha": 0.8651355414765488,
+        "reg_lambda": 0.9017504182291679,
+        "subsample": 0.5027163975622485
+    },
+    "best_param_TX_3_FOODS_2": {
+        "gamma": 0.6726579199260075,
+        "learning_rate": 0.0542083955026484,
+        "max_depth": 10,
+        "n_estimators": 46,
+        "reg_alpha": 0.8372509886696164,
+        "reg_lambda": 0.12522821772326775,
+        "subsample": 0.5146272132795918
+    },
+    "best_param_TX_3_FOODS_3": {
+        "gamma": 0.2392105210403458,
+        "learning_rate": 0.3864544922704324,
+        "max_depth": 6,
+        "n_estimators": 72,
+        "reg_alpha": 0.40498598548458364,
+        "reg_lambda": 0.5924936012107234,
+        "subsample": 0.9854128372824769
+    },
+    "best_param_TX_3_HOBBIES_1": {
+        "gamma": 0.6750032006426575,
+        "learning_rate": 0.06611270457149333,
+        "max_depth": 5,
+        "n_estimators": 57,
+        "reg_alpha": 0.24566100011500358,
+        "reg_lambda": 0.04825619505916645,
+        "subsample": 0.9895522911971218
+    },
+    "best_param_TX_3_HOBBIES_2": {
+        "gamma": 0.15509096705032122,
+        "learning_rate": 0.1101577077894549,
+        "max_depth": 5,
+        "n_estimators": 126,
+        "reg_alpha": 0.9166773855274563,
+        "reg_lambda": 0.5803817535791194,
+        "subsample": 0.16774501716732143
+    },
+    "best_param_TX_3_HOUSEHOLD_1": {
+        "gamma": 0.6318418182373611,
+        "learning_rate": 0.047321116902849354,
+        "max_depth": 12,
+        "n_estimators": 99,
+        "reg_alpha": 0.05057655578429543,
+        "reg_lambda": 0.5264065595944573,
+        "subsample": 0.8155640930761523
+    },
+    "best_param_TX_3_HOUSEHOLD_2": {
+        "gamma": 0.9581105495795657,
+        "learning_rate": 0.0861941630438758,
+        "max_depth": 17,
+        "n_estimators": 149,
+        "reg_alpha": 0.14282386961343962,
+        "reg_lambda": 0.07930875326594633,
+        "subsample": 0.598225883956766
+    },
+    "best_param_WI_1_FOODS_1": {
+        "gamma": 0.768098613143694,
+        "learning_rate": 0.03320503065448301,
+        "max_depth": 13,
+        "n_estimators": 52,
+        "reg_alpha": 0.015474649626260994,
+        "reg_lambda": 0.5677382969801804,
+        "subsample": 0.45901437006012924
+    },
+    "best_param_WI_1_FOODS_2": {
+        "gamma": 0.438200333627931,
+        "learning_rate": 0.33906961916879425,
+        "max_depth": 18,
+        "n_estimators": 136,
+        "reg_alpha": 0.6097966668076845,
+        "reg_lambda": 0.25974350174907335,
+        "subsample": 0.8353301139184549
+    },
+    "best_param_WI_1_FOODS_3": {
+        "gamma": 0.7485011801047321,
+        "learning_rate": 0.17088748679246332,
+        "max_depth": 8,
+        "n_estimators": 66,
+        "reg_alpha": 0.44964143117691335,
+        "reg_lambda": 0.5847818815419572,
+        "subsample": 0.6046720528898193
+    },
+    "best_param_WI_1_HOBBIES_1": {
+        "gamma": 0.7866381106101926,
+        "learning_rate": 0.04274004264766036,
+        "max_depth": 5,
+        "n_estimators": 52,
+        "reg_alpha": 0.8635865466628908,
+        "reg_lambda": 0.13540217485075523,
+        "subsample": 0.24610295703928775
+    },
+    "best_param_WI_1_HOBBIES_2": {
+        "gamma": 0.5398584247024134,
+        "learning_rate": 0.22163487619429523,
+        "max_depth": 8,
+        "n_estimators": 197,
+        "reg_alpha": 0.9316890697598943,
+        "reg_lambda": 0.8757021419521085,
+        "subsample": 0.9563709844756497
+    },
+    "best_param_WI_1_HOUSEHOLD_1": {
+        "gamma": 0.06389123554891052,
+        "learning_rate": 0.10848664499516988,
+        "max_depth": 11,
+        "n_estimators": 66,
+        "reg_alpha": 0.23812019754487646,
+        "reg_lambda": 0.6571533433060874,
+        "subsample": 0.748582205828454
+    },
+    "best_param_WI_1_HOUSEHOLD_2": {
+        "gamma": 0.6514305063706615,
+        "learning_rate": 0.12718651019934982,
+        "max_depth": 2,
+        "n_estimators": 198,
+        "reg_alpha": 0.8976648153026864,
+        "reg_lambda": 0.22088865865592255,
+        "subsample": 0.19858908380423623
+    },
+    "best_param_WI_2_FOODS_1": {
+        "gamma": 0.4071533884587376,
+        "learning_rate": 0.08495649144285888,
+        "max_depth": 9,
+        "n_estimators": 116,
+        "reg_alpha": 0.9314546224024222,
+        "reg_lambda": 0.9822522312340932,
+        "subsample": 0.26809789250160654
+    },
+    "best_param_WI_2_FOODS_2": {
+        "gamma": 0.9517846485623164,
+        "learning_rate": 0.10026618333696109,
+        "max_depth": 13,
+        "n_estimators": 83,
+        "reg_alpha": 0.48257172301721685,
+        "reg_lambda": 0.2292734254660248,
+        "subsample": 0.5314925837188522
+    },
+    "best_param_WI_2_FOODS_3": {
+        "gamma": 0.7684776617779235,
+        "learning_rate": 0.020410201748531084,
+        "max_depth": 7,
+        "n_estimators": 54,
+        "reg_alpha": 0.7235932650255823,
+        "reg_lambda": 0.40542113040099914,
+        "subsample": 0.6075313401602385
+    },
+    "best_param_WI_2_HOBBIES_1": {
+        "gamma": 0.9233330551495074,
+        "learning_rate": 0.24300427081459164,
+        "max_depth": 18,
+        "n_estimators": 89,
+        "reg_alpha": 0.3134902426786551,
+        "reg_lambda": 0.6023643728175,
+        "subsample": 0.4093318266128312
+    },
+    "best_param_WI_2_HOBBIES_2": {
+        "gamma": 0.7303973866618626,
+        "learning_rate": 0.13026684639087172,
+        "max_depth": 9,
+        "n_estimators": 196,
+        "reg_alpha": 0.5561834021938301,
+        "reg_lambda": 0.9124385783568332,
+        "subsample": 0.5238407075175437
+    },
+    "best_param_WI_2_HOUSEHOLD_1": {
+        "gamma": 0.22341138560779938,
+        "learning_rate": 0.07227182658267423,
+        "max_depth": 17,
+        "n_estimators": 1,
+        "reg_alpha": 0.3176875735606164,
+        "reg_lambda": 0.46068604825370607,
+        "subsample": 0.2902132509078871
+    },
+    "best_param_WI_2_HOUSEHOLD_2": {
+        "gamma": 0.16279291039063426,
+        "learning_rate": 0.0378472289872395,
+        "max_depth": 18,
+        "n_estimators": 84,
+        "reg_alpha": 0.8781855554429324,
+        "reg_lambda": 0.749490909902549,
+        "subsample": 0.20163275954573207
+    },
+    "best_param_WI_3_FOODS_1": {
+        "gamma": 0.3494583899347694,
+        "learning_rate": 0.032387769751559686,
+        "max_depth": 6,
+        "n_estimators": 79,
+        "reg_alpha": 0.3215675468137984,
+        "reg_lambda": 0.951933443434595,
+        "subsample": 0.4445781137807545
+    },
+    "best_param_WI_3_FOODS_2": {
+        "gamma": 0.9330282539342701,
+        "learning_rate": 0.05638801903229539,
+        "max_depth": 1,
+        "n_estimators": 93,
+        "reg_alpha": 0.16213067509702073,
+        "reg_lambda": 0.7223991601147199,
+        "subsample": 0.35934364482805947
+    },
+    "best_param_WI_3_FOODS_3": {
+        "gamma": 0.9980340518386107,
+        "learning_rate": 0.12042335360555215,
+        "max_depth": 6,
+        "n_estimators": 47,
+        "reg_alpha": 0.3091694745038498,
+        "reg_lambda": 0.9325915098788479,
+        "subsample": 0.8793640828244502
+    },
+    "best_param_WI_3_HOBBIES_1": {
+        "gamma": 0.617344671402607,
+        "learning_rate": 0.025242857161754322,
+        "max_depth": 2,
+        "n_estimators": 20,
+        "reg_alpha": 0.20106902594402987,
+        "reg_lambda": 0.24570340685398595,
+        "subsample": 0.21251829626811136
+    },
+    "best_param_WI_3_HOBBIES_2": {
+        "gamma": 0.8269093661186996,
+        "learning_rate": 0.12206291401867099,
+        "max_depth": 13,
+        "n_estimators": 53,
+        "reg_alpha": 0.6070299734061617,
+        "reg_lambda": 0.6002528018026649,
+        "subsample": 0.2359404487895695
+    },
+    "best_param_WI_3_HOUSEHOLD_1": {
+        "gamma": 0.9202987086446174,
+        "learning_rate": 0.05194192384847444,
+        "max_depth": 17,
+        "n_estimators": 13,
+        "reg_alpha": 0.3741409497104743,
+        "reg_lambda": 0.6399856191941603,
+        "subsample": 0.6734555793631192
+    },
+    "best_param_WI_3_HOUSEHOLD_2": {
+        "gamma": 0.2413523728099235,
+        "learning_rate": 0.1094445019281253,
+        "max_depth": 14,
+        "n_estimators": 20,
+        "reg_alpha": 0.07564180342631655,
+        "reg_lambda": 0.2971575561726637,
+        "subsample": 0.7761831859618753
+    }
+}
