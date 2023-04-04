@@ -12,8 +12,8 @@ class TestDropZeroRows(unittest.TestCase):
         self.df = pd.DataFrame(data)
         
     def test_drop_zeros(self):
-        dz = DropZeroValues()
-        df_dropped = dz.drop_zeros(self.df)
+        dz = DropZeroValues(self.df)
+        df_dropped = dz.drop_values(['Name','Sales','Region'])
         
         # check the number of rows and columns of the resulting DataFrame
         self.assertEqual(df_dropped.shape, (3, 3))

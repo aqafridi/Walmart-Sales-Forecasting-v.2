@@ -1,6 +1,7 @@
 import numpy as np
 from typing import Tuple
 import pandas as pd
+import json
 
 def get_xgboost_x_y(
     indices: list, 
@@ -129,7 +130,7 @@ def prepare_data_for_xgb(y_train_data_,y_test_data_,in_length,step_size,target_s
     test_indices = get_indices_entire_sequence(
         data=y_test_data_, 
         window_size=in_length+target_sequence_length, 
-        step_size=24
+        step_size=step_size
         )
 
     # Obtain (X,Y) pairs of test data
@@ -140,3 +141,27 @@ def prepare_data_for_xgb(y_train_data_,y_test_data_,in_length,step_size,target_s
         input_seq_len=in_length
         )
     return x_train, y_train,x_test, y_test
+
+
+class NpEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.integer):
+            return int(obj)
+        if isinstance(obj, np.floating):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super(NpEncoder, self).default(obj)
+
+def save_to_json(filename, data, mode='w'):
+    
+    with open(f"./best_params/{filename}.json", mode) as f:
+        json.dump(data, f,cls=NpEncoder)
+
+
+def read_from_json(filename,mode="r"):
+    with open(f'./best_params/{filename}.json', mode) as f:
+        # Load the JSON data into a Python dictionary
+        data = json.load(f)
+
+        return data
