@@ -47,7 +47,7 @@
     "best_param_CA_1_HOUSEHOLD_1": {
         "gamma": 0.6994402957514878,
         "learning_rate": 0.11952857351276355,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 135,
         "reg_alpha": 0.39508885799314497,
         "reg_lambda": 0.18401085753606494,
@@ -191,7 +191,7 @@
     "best_param_CA_4_FOODS_1": {
         "gamma": 0.19256486358007174,
         "learning_rate": 0.02542022952654161,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 114,
         "reg_alpha": 0.8405399723412514,
         "reg_lambda": 0.4695981086007226,
@@ -236,7 +236,7 @@
     "best_param_CA_4_HOUSEHOLD_1": {
         "gamma": 0.5948412048024051,
         "learning_rate": 0.02761156607116946,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 124,
         "reg_alpha": 0.2886291768940865,
         "reg_lambda": 0.4188585064350484,
@@ -245,7 +245,7 @@
     "best_param_CA_4_HOUSEHOLD_2": {
         "gamma": 0.44008350262675844,
         "learning_rate": 0.07704765907430748,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 149,
         "reg_alpha": 0.6657803420186276,
         "reg_lambda": 0.6044373515690158,
@@ -272,7 +272,7 @@
     "best_param_TX_1_FOODS_3": {
         "gamma": 0.7851679866416927,
         "learning_rate": 0.03522199859718037,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 29,
         "reg_alpha": 0.5687617825165412,
         "reg_lambda": 0.12328817471842124,
@@ -317,7 +317,7 @@
     "best_param_TX_2_FOODS_1": {
         "gamma": 0.6806575069883374,
         "learning_rate": 0.09045222697809219,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 130,
         "reg_alpha": 0.954701807809407,
         "reg_lambda": 0.5235062150361086,
@@ -326,7 +326,7 @@
     "best_param_TX_2_FOODS_2": {
         "gamma": 0.8179084796929192,
         "learning_rate": 0.08217104971259485,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 135,
         "reg_alpha": 0.4350774496581046,
         "reg_lambda": 0.04705001116516405,
@@ -380,7 +380,7 @@
     "best_param_TX_3_FOODS_1": {
         "gamma": 0.34738776895754986,
         "learning_rate": 0.04997456868965492,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 194,
         "reg_alpha": 0.847282957959572,
         "reg_lambda": 0.5087083182347542,
@@ -425,7 +425,7 @@
     "best_param_TX_3_HOUSEHOLD_1": {
         "gamma": 0.162492389112893,
         "learning_rate": 0.03765527713029285,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 124,
         "reg_alpha": 0.016191653468403233,
         "reg_lambda": 0.10391067154982625,
@@ -434,7 +434,7 @@
     "best_param_TX_3_HOUSEHOLD_2": {
         "gamma": 0.6517540049976364,
         "learning_rate": 0.1446868633073627,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 124,
         "reg_alpha": 0.937695745442673,
         "reg_lambda": 0.5233192687409735,
@@ -443,7 +443,7 @@
     "best_param_WI_1_FOODS_1": {
         "gamma": 0.9070036140540901,
         "learning_rate": 0.2517112416395223,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 81,
         "reg_alpha": 0.40659669590141745,
         "reg_lambda": 0.6766194010849977,
@@ -479,7 +479,7 @@
     "best_param_WI_1_HOBBIES_2": {
         "gamma": 0.20132362988889851,
         "learning_rate": 0.0705585534155988,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 88,
         "reg_alpha": 0.05229183370597579,
         "reg_lambda": 0.23308818875173964,
@@ -515,7 +515,7 @@
     "best_param_WI_2_FOODS_2": {
         "gamma": 0.21135598891322305,
         "learning_rate": 0.030414433409135994,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 122,
         "reg_alpha": 0.39908741156122307,
         "reg_lambda": 0.09240287285633808,
@@ -605,7 +605,7 @@
     "best_param_WI_3_HOBBIES_2": {
         "gamma": 0.5830231073456454,
         "learning_rate": 0.23685709552536524,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 123,
         "reg_alpha": 0.10970453437270955,
         "reg_lambda": 0.49156859034954814,
@@ -623,7 +623,7 @@
     "best_param_WI_3_HOUSEHOLD_2": {
         "gamma": 0.2839116591746699,
         "learning_rate": 0.38180536426603756,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 55,
         "reg_alpha": 0.7716803086414631,
         "reg_lambda": 0.019046655248464273,

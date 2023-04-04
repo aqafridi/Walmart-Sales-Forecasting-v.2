@@ -146,7 +146,7 @@
     "best_param_CA_3_FOODS_3": {
         "gamma": 0.13042256596310142,
         "learning_rate": 0.49586021849393336,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 125,
         "reg_alpha": 0.6847846710138374,
         "reg_lambda": 0.60935906126537,
@@ -245,7 +245,7 @@
     "best_param_CA_4_HOUSEHOLD_2": {
         "gamma": 0.421900302193285,
         "learning_rate": 0.5134809363960335,
-        "max_depth": 0,
+        "max_depth": 7,
         "n_estimators": 123,
         "reg_alpha": 0.5259820901065835,
         "reg_lambda": 0.5356121675201495,
