@@ -10,18 +10,19 @@ class TrainTestSplit:
     and returns the resulting X and y training and testing sets.
     """
 
-    def __init__(self, data, test_size=0.3, random_state=0,shuffle=False):
+    def __init__(self, data, test_size=0.3, random_state=0,shuffle=False,stratify=None):
         self.data = data
         self.test_size = test_size
         self.random_state = random_state
         self.shuffle = shuffle
+        self.stratify = stratify
         
     def split_data(self):
         """
         Split the data into training and testing sets.
         """
         X = self.data.index
-        X_train, X_test, y_train, y_test = train_test_split(X, self.data, test_size=self.test_size,shuffle=self.shuffle)
+        X_train, X_test, y_train, y_test = train_test_split(X, self.data, test_size=self.test_size,shuffle=self.shuffle,stratify=self.stratify)
         return X_train, X_test, y_train, y_test
 
 

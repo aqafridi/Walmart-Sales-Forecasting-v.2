@@ -1,4 +1,4 @@
-
+import pandas as pd
 class DataFormator:
     """This class takes two dataframes  and formate the data.
     """
@@ -24,8 +24,13 @@ class DataFormator:
         data.index.name = None   # remove the name of index
         data.drop(index=new_col,inplace=True) # remove the first row
         # change the format and the freq. of index to datetime format
+        # data.index = self.data2['date'][0:1913]
+        # # data.index = pd.to_datetime(data.index)
+        # data.index = data.index
+        # data.index.freq= 'd'
+
+        #for sarimax
         data.index = self.data2['date'][0:1913]
-        # data.index = pd.to_datetime(data.index)
-        data.index = data.index
+        data.index = pd.to_datetime(data.index)
         data.index.freq= 'd'
         return data

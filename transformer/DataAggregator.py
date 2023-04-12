@@ -1,4 +1,4 @@
-import modin.pandas as pd
+import pandas as pd
 
 class DataAggregator:
     """
@@ -13,6 +13,8 @@ class DataAggregator:
 
     def __init__(self, data):
         self.data = data
+
+    
         
     def group_by(self, column):
         """
@@ -28,6 +30,7 @@ class DataAggregator:
         aggregated_data = self.data.groupby(column).agg(func)
         aggregated_data=aggregated_data.reset_index()
         return aggregated_data
+    
     
 
 

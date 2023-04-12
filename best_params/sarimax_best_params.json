@@ -1,0 +1,479 @@
+{
+    "best_param_CA_1_FOODS_1": {
+        "D": 0,
+        "P": 2,
+        "Q": 1,
+        "d": 1,
+        "p": 1,
+        "q": 2,
+        "seasonal_order": 6
+    },
+    "best_param_CA_1_FOODS_2": {
+        "D": 2,
+        "P": 1,
+        "Q": 1,
+        "d": 1,
+        "p": 1,
+        "q": 2,
+        "seasonal_order": 2
+    },
+    "best_param_CA_1_FOODS_3": {
+        "D": 1,
+        "P": 1,
+        "Q": 0,
+        "d": 0,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 7
+    },
+    "best_param_CA_1_HOBBIES_1": {
+        "D": 0,
+        "P": 2,
+        "Q": 2,
+        "d": 0,
+        "p": 0,
+        "q": 1,
+        "seasonal_order": 2
+    },
+    "best_param_CA_1_HOBBIES_2": {
+        "D": 1,
+        "P": 1,
+        "Q": 1,
+        "d": 1,
+        "p": 1,
+        "q": 2,
+        "seasonal_order": 2
+    },
+    "best_param_CA_1_HOUSEHOLD_1": {
+        "D": 1,
+        "P": 1,
+        "Q": 1,
+        "d": 0,
+        "p": 1,
+        "q": 0,
+        "seasonal_order": 5
+    },
+    "best_param_CA_1_HOUSEHOLD_2": {
+        "D": 0,
+        "P": 0,
+        "Q": 2,
+        "d": 1,
+        "p": 0,
+        "q": 0,
+        "seasonal_order": 4
+    },
+    "best_param_CA_2_FOODS_1": {
+        "D": 0,
+        "P": 0,
+        "Q": 1,
+        "d": 0,
+        "p": 2,
+        "q": 2,
+        "seasonal_order": 7
+    },
+    "best_param_CA_2_FOODS_2": {
+        "D": 1,
+        "P": 2,
+        "Q": 0,
+        "d": 2,
+        "p": 0,
+        "q": 1,
+        "seasonal_order": 2
+    },
+    "best_param_CA_2_FOODS_3": {
+        "D": 0,
+        "P": 0,
+        "Q": 0,
+        "d": 2,
+        "p": 0,
+        "q": 1,
+        "seasonal_order": 4
+    },
+    "best_param_CA_2_HOBBIES_1": {
+        "D": 2,
+        "P": 2,
+        "Q": 1,
+        "d": 0,
+        "p": 1,
+        "q": 2,
+        "seasonal_order": 2
+    },
+    "best_param_CA_2_HOBBIES_2": {
+        "D": 1,
+        "P": 2,
+        "Q": 1,
+        "d": 2,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 6
+    },
+    "best_param_CA_2_HOUSEHOLD_1": {
+        "D": 2,
+        "P": 1,
+        "Q": 2,
+        "d": 0,
+        "p": 2,
+        "q": 0,
+        "seasonal_order": 7
+    },
+    "best_param_CA_2_HOUSEHOLD_2": {
+        "D": 1,
+        "P": 0,
+        "Q": 1,
+        "d": 0,
+        "p": 2,
+        "q": 0,
+        "seasonal_order": 2
+    },
+    "best_param_CA_3_FOODS_1": {
+        "D": 0,
+        "P": 1,
+        "Q": 0,
+        "d": 0,
+        "p": 1,
+        "q": 2,
+        "seasonal_order": 2
+    },
+    "best_param_CA_3_FOODS_2": {
+        "D": 0,
+        "P": 2,
+        "Q": 2,
+        "d": 1,
+        "p": 2,
+        "q": 2,
+        "seasonal_order": 2
+    },
+    "best_param_CA_3_FOODS_3": {
+        "D": 0,
+        "P": 0,
+        "Q": 1,
+        "d": 1,
+        "p": 2,
+        "q": 2,
+        "seasonal_order": 1
+    },
+    "best_param_CA_3_HOBBIES_1": {
+        "D": 0,
+        "P": 2,
+        "Q": 0,
+        "d": 2,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 7
+    },
+    "best_param_CA_3_HOBBIES_2": {
+        "D": 0,
+        "P": 2,
+        "Q": 0,
+        "d": 2,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 5
+    },
+    "best_param_CA_3_HOUSEHOLD_1": {
+        "D": 2,
+        "P": 1,
+        "Q": 1,
+        "d": 1,
+        "p": 2,
+        "q": 1,
+        "seasonal_order": 3
+    },
+    "best_param_CA_3_HOUSEHOLD_2": {
+        "D": 1,
+        "P": 2,
+        "Q": 2,
+        "d": 2,
+        "p": 0,
+        "q": 2,
+        "seasonal_order": 7
+    },
+    "best_param_CA_4_FOODS_1": {
+        "D": 1,
+        "P": 2,
+        "Q": 0,
+        "d": 0,
+        "p": 1,
+        "q": 0,
+        "seasonal_order": 6
+    },
+    "best_param_CA_4_FOODS_2": {
+        "D": 1,
+        "P": 1,
+        "Q": 2,
+        "d": 0,
+        "p": 2,
+        "q": 0,
+        "seasonal_order": 2
+    },
+    "best_param_CA_4_FOODS_3": {
+        "D": 0,
+        "P": 1,
+        "Q": 0,
+        "d": 1,
+        "p": 0,
+        "q": 0,
+        "seasonal_order": 2
+    },
+    "best_param_CA_4_HOBBIES_1": {
+        "D": 2,
+        "P": 0,
+        "Q": 2,
+        "d": 0,
+        "p": 1,
+        "q": 2,
+        "seasonal_order": 5
+    },
+    "best_param_CA_4_HOBBIES_2": {
+        "D": 1,
+        "P": 1,
+        "Q": 0,
+        "d": 0,
+        "p": 0,
+        "q": 1,
+        "seasonal_order": 1
+    },
+    "best_param_CA_4_HOUSEHOLD_1": {
+        "D": 1,
+        "P": 2,
+        "Q": 1,
+        "d": 0,
+        "p": 2,
+        "q": 0,
+        "seasonal_order": 2
+    },
+    "best_param_CA_4_HOUSEHOLD_2": {
+        "D": 0,
+        "P": 1,
+        "Q": 2,
+        "d": 0,
+        "p": 2,
+        "q": 2,
+        "seasonal_order": 6
+    },
+    "best_param_TX_1_FOODS_1": {
+        "D": 0,
+        "P": 1,
+        "Q": 1,
+        "d": 2,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 2
+    },
+    "best_param_TX_1_FOODS_2": {
+        "D": 2,
+        "P": 2,
+        "Q": 1,
+        "d": 0,
+        "p": 2,
+        "q": 2,
+        "seasonal_order": 4
+    },
+    "best_param_TX_1_FOODS_3": {
+        "D": 1,
+        "P": 2,
+        "Q": 0,
+        "d": 1,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 6
+    },
+    "best_param_TX_1_HOBBIES_1": {
+        "D": 0,
+        "P": 0,
+        "Q": 0,
+        "d": 1,
+        "p": 0,
+        "q": 2,
+        "seasonal_order": 7
+    },
+    "best_param_TX_1_HOBBIES_2": {
+        "D": 1,
+        "P": 2,
+        "Q": 2,
+        "d": 0,
+        "p": 1,
+        "q": 2,
+        "seasonal_order": 4
+    },
+    "best_param_TX_1_HOUSEHOLD_1": {
+        "D": 0,
+        "P": 2,
+        "Q": 0,
+        "d": 2,
+        "p": 0,
+        "q": 1,
+        "seasonal_order": 3
+    },
+    "best_param_TX_1_HOUSEHOLD_2": {
+        "D": 0,
+        "P": 1,
+        "Q": 1,
+        "d": 1,
+        "p": 1,
+        "q": 0,
+        "seasonal_order": 7
+    },
+    "best_param_TX_2_FOODS_1": {
+        "D": 1,
+        "P": 1,
+        "Q": 1,
+        "d": 0,
+        "p": 2,
+        "q": 0,
+        "seasonal_order": 7
+    },
+    "best_param_TX_2_FOODS_2": {
+        "D": 1,
+        "P": 0,
+        "Q": 2,
+        "d": 2,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 4
+    },
+    "best_param_TX_2_FOODS_3": {
+        "D": 1,
+        "P": 2,
+        "Q": 1,
+        "d": 1,
+        "p": 1,
+        "q": 0,
+        "seasonal_order": 2
+    },
+    "best_param_TX_2_HOBBIES_1": {
+        "D": 0,
+        "P": 0,
+        "Q": 0,
+        "d": 1,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 3
+    },
+    "best_param_TX_2_HOBBIES_2": {
+        "D": 0,
+        "P": 1,
+        "Q": 2,
+        "d": 1,
+        "p": 2,
+        "q": 2,
+        "seasonal_order": 2
+    },
+    "best_param_TX_2_HOUSEHOLD_1": {
+        "D": 0,
+        "P": 1,
+        "Q": 2,
+        "d": 2,
+        "p": 0,
+        "q": 1,
+        "seasonal_order": 2
+    },
+    "best_param_TX_2_HOUSEHOLD_2": {
+        "D": 0,
+        "P": 1,
+        "Q": 2,
+        "d": 1,
+        "p": 2,
+        "q": 0,
+        "seasonal_order": 7
+    },
+    "best_param_TX_3_FOODS_1": {
+        "D": 1,
+        "P": 2,
+        "Q": 2,
+        "d": 0,
+        "p": 2,
+        "q": 1,
+        "seasonal_order": 2
+    },
+    "best_param_TX_3_FOODS_2": {
+        "D": 1,
+        "P": 0,
+        "Q": 1,
+        "d": 2,
+        "p": 0,
+        "q": 2,
+        "seasonal_order": 2
+    },
+    "best_param_TX_3_FOODS_3": {
+        "D": 1,
+        "P": 0,
+        "Q": 1,
+        "d": 1,
+        "p": 2,
+        "q": 2,
+        "seasonal_order": 5
+    },
+    "best_param_TX_3_HOBBIES_1": {
+        "D": 1,
+        "P": 2,
+        "Q": 2,
+        "d": 0,
+        "p": 2,
+        "q": 1,
+        "seasonal_order": 2
+    },
+    "best_param_TX_3_HOBBIES_2": {
+        "D": 0,
+        "P": 0,
+        "Q": 0,
+        "d": 2,
+        "p": 0,
+        "q": 2,
+        "seasonal_order": 6
+    },
+    "best_param_TX_3_HOUSEHOLD_1": {
+        "D": 2,
+        "P": 0,
+        "Q": 2,
+        "d": 2,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 6
+    },
+    "best_param_TX_3_HOUSEHOLD_2": {
+        "D": 0,
+        "P": 1,
+        "Q": 2,
+        "d": 2,
+        "p": 1,
+        "q": 2,
+        "seasonal_order": 3
+    },
+    "best_param_WI_1_FOODS_1": {
+        "D": 1,
+        "P": 1,
+        "Q": 2,
+        "d": 1,
+        "p": 1,
+        "q": 2,
+        "seasonal_order": 6
+    },
+    "best_param_WI_1_FOODS_2": {
+        "D": 1,
+        "P": 0,
+        "Q": 1,
+        "d": 1,
+        "p": 2,
+        "q": 0,
+        "seasonal_order": 3
+    },
+    "best_param_WI_1_FOODS_3": {
+        "D": 0,
+        "P": 1,
+        "Q": 2,
+        "d": 0,
+        "p": 2,
+        "q": 2,
+        "seasonal_order": 6
+    },
+    "best_param_WI_1_HOBBIES_1": {
+        "D": 1,
+        "P": 0,
+        "Q": 2,
+        "d": 0,
+        "p": 1,
+        "q": 1,
+        "seasonal_order": 4
+    }
+}

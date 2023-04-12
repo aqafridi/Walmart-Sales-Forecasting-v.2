@@ -1,6 +1,6 @@
 import numpy as np
 from typing import Tuple
-import pandas as pd
+import modin.pandas as pd
 import json
 
 def get_xgboost_x_y(
