@@ -1,4 +1,4 @@
-# M5-Forecasting-v.2
+# Walmart-Sales-Forecasting-v.2
 
 ## main.py
 This script run the main program
